@@ -25,6 +25,8 @@ public class WorkClass {
         } else{
             value = false;
         }
-        //System.out.println("these two examples are equivalent = " + value);
+        System.out.println("these two examples are equivalent = " + value);
+
+
     }
 }
