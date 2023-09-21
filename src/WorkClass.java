@@ -2,6 +2,8 @@
 // Лабораторна робота № 2.
 // Лінійні програми.
 // Варіант 11
+import com.sun.security.jgss.GSSUtil;
+
 import java.util.Scanner;
 
 public class WorkClass {
@@ -16,5 +18,13 @@ public class WorkClass {
 
         z2 = (1 - Math.tan(a)) / (1 + Math.tan(a));
         System.out.println("result of z2 = " + Math.round(z2*100000.0)/100000.0);
+
+        boolean value;
+        if(z1 == z2){
+            value = true;
+        } else{
+            value = false;
+        }
+        //System.out.println("these two examples are equivalent = " + value);
     }
 }
