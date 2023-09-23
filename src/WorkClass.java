@@ -30,8 +30,14 @@ public class WorkClass {
         System.out.println("these 3 examples are equivalent = " + value);
         System.out.println("these 4 examples are equivalent = " + value);
         System.out.println("these 5 examples are equivalent = " + value);
+        System.out.println("these 5 examples are equivalent = " + value);
+
+
+
+
+        System.out.println("these 5 examples are equivalent = " + value);
+        System.out.println("these 5 examples are equivalent = " + value);
+        System.out.println("these 5 examples are equivalent = " + value);
         System.out.println("these 6 examples are equivalent = " + value);
-
-
     }
 }
