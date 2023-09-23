@@ -25,7 +25,12 @@ public class WorkClass {
         } else{
             value = false;
         }
-        System.out.println("these two examples are equivalent = " + value);
+        System.out.println("these 1 examples are equivalent = " + value);
+        System.out.println("these 2 examples are equivalent = " + value);
+        System.out.println("these 3 examples are equivalent = " + value);
+        System.out.println("these 4 examples are equivalent = " + value);
+        System.out.println("these 5 examples are equivalent = " + value);
+        System.out.println("these 6 examples are equivalent = " + value);
 
 
     }
