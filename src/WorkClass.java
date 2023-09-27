@@ -19,25 +19,5 @@ public class WorkClass {
         z2 = (1 - Math.tan(a)) / (1 + Math.tan(a));
         System.out.println("result of z2 = " + Math.round(z2*100000.0)/100000.0);
 
-        boolean value;
-        if(z1 == z2){
-            value = true;
-        } else{
-            value = false;
-        }
-        System.out.println("these 1 examples are equivalent = " + value);
-        System.out.println("these 2 examples are equivalent = " + value);
-        System.out.println("these 3 examples are equivalent = " + value);
-        System.out.println("these 4 examples are equivalent = " + value);
-        System.out.println("these 5 examples are equivalent = " + value);
-        System.out.println("these 5 examples are equivalent = " + value);
-
-
-
-
-        System.out.println("these 5 examples are equivalent = " + value);
-        System.out.println("these 5 examples are equivalent = " + value);
-        System.out.println("these 5 examples are equivalent = " + value);
-        System.out.println("these 6 examples are equivalent = " + value);
     }
 }
